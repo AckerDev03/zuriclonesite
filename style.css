@@ -242,7 +242,7 @@ a:hover{
     padding-bottom: 97px;
 }
 
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
 
     .hero-container {
         height: auto;
