@@ -138,10 +138,9 @@ strong{
 }
 
 .container{
-    background-image: url();
+    background-image: url(../images/bgsection2.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #d69696;
 }
 
 .container-1{
