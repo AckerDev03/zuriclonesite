@@ -5,13 +5,13 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Graphik', sans-serif;
     background: #ffff;
     /* max-width: 1440px !important; */
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #ffff;
 }
 
 .navbar{
@@ -37,10 +37,6 @@ body{
     align-items: center;
 }
 
-.logo img{
-    width: 100%;
-}
-
 .nav-ul{
     display: flex;
     align-items: center;
@@ -48,9 +44,9 @@ body{
 }
 
 .navbar-nav{
-    margin: 0 18px;
+    margin: 0 28px;
     text-align: center;
-    color: #282e35;
+    color: #161617;
     font-size: 16px;
     padding: 18px 10px;
     text-decoration: none;
@@ -59,6 +55,11 @@ body{
 .navbar-nav:hover{
     background-color: #d7d8db38;
 }
+
+/* .current-tab{
+    border-bottom: 3px solid #e7332b!important;
+    border-radius: 0!important;
+} */
 
 .navbar-nav:active{
     transition: all .3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -89,7 +90,7 @@ strong{
 }
 
 .header-items img{
-    margin-left: 400px;
+    margin-left: 62%;
     margin-top: -30px;
 }
 
@@ -114,14 +115,18 @@ strong{
     font-size: 16px;
 }
 
+.btn-red:hover{
+    box-shadow: 0px 3px 5px 1px #cccccca4;
+}
+
+.btn-red:active{
+   
+}
+
 .btn-ash{
     margin-left: 20px;
     background: #585858;
     border: 1px solid #585858;
-}
-
-.img-div{
-    z-index: 0;
 }
 
 .section1-png{
@@ -133,7 +138,7 @@ strong{
     width: 140px;
     position: absolute;
     margin-top: -172px;
-    margin-left: 46%;
+    margin-left: 43%;
     z-index: -1;
 }
 
@@ -141,6 +146,7 @@ strong{
     background-image: url(../images/bgsection2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 90px;
 }
 
 .container-1{
@@ -158,6 +164,7 @@ strong{
 
 .impact-content h2{
     font-size: 40px;
+    color: #212529;
 }
 
 .impact-content b{
@@ -185,7 +192,7 @@ strong{
     align-items: center;
     margin-right: 16px;
     padding: 7px;
-    width: 55px;
+    width: 65px;
 }
 
 .img-section2{
@@ -202,6 +209,7 @@ strong{
 
 .container-2 h2{
     font-size: 40px;
+    color: #212529;
 }
 
 .talents{
@@ -266,23 +274,20 @@ strong{
 .box{
     display: flex;
     width: 350px;
+    height: 300px;
     background-color: #fff;
     border-radius: 0 0 16px 0;
     color: #787878;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 45px 10px;
+    padding: 45px 28px;
     margin: 15px;
-}
-.box:hover{
-    background-color: #161617;
-    color: #ffff;
 }
 
 .box-5{
     position: relative;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 .box-4, .box-7{
@@ -291,13 +296,154 @@ strong{
 
 .box p{
     text-align: center;
-    padding-top: 12px;
-    color: #787878;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.box:hover{
+    background-color: #161617;
+    color: #ffff;
 }
 
 .rope{
     position: absolute;
-    right: 90%;
-    bottom: 45%;
-    z-index: -1;
+    margin-top: 34%;
+    left: 0;
 }
+
+.impact-btn{
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+}
+
+.footer{
+    background-color: rgb(22, 22, 23);
+    padding-top: 70px;
+}
+
+.footer-content{
+    width: 92%;
+    margin: auto;
+}
+
+.social-box{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.btn-social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-social img{
+    padding-left: 15px;
+}
+
+.last-div{
+    padding: 15px 0;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between
+}
+
+@media (max-width: 768px){
+    body{
+       position: relative;
+    }
+
+    .navbar{
+        position: fixed;
+    }
+
+    .navbar-nav{
+        display: none;
+    }
+    .navbar-nav a button{
+        display: flex;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+
+    .header-items{
+        text-align: center;
+        width: inherit;
+    }
+
+    .header-items img{
+        /* margin-left: 200px; */
+    }
+
+    .btn-div .btn-ash{
+        margin-top: 10px;
+    }
+
+    .section1-png{
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .container-1{
+        flex-direction: column;
+    }
+
+    .impact-content{
+        text-align: center;
+    }
+
+    .country{
+        justify-content: center;
+    }
+
+    .img-section2{
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .talents{
+       flex-flow: row wrap;
+    }
+
+    .talents li{
+        margin-top: 15px;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .talents-line{
+        float: none;
+        width: 200px;
+        margin-left: 90px;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .whyus-box{
+        justify-content: center;
+    }
+
+    .box-4, .box-7, .rope{
+        display: none;
+    }
+
+    .impact-btn a button{
+        padding: 10px 20px;
+    }
+
+    .btn-social{
+        justify-content: start;
+    }
+
+    .last-div{
+        font-size: 15px;
+    }
+
+    .copyright{
+        margin-right: 10px;
+    }
+}   

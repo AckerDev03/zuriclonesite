@@ -1,6 +1,6 @@
 
 const modal = document.querySelector('.modal');
-const overLay = document.querySelector('.overlay');
+const overlay = document.querySelector('.overlay');
 const showModal = document.querySelector('#show-modal');
 
 
@@ -16,7 +16,6 @@ const openModal = function () {
 
 showModal.addEventListener('click', openModal);
 
-btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
 document.addEventListener('keydown', function (e) {
