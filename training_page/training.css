@@ -245,6 +245,7 @@ body{
     justify-content: center;
     margin: 0 auto;
     padding-top: 50px;
+    padding-bottom: 70px;
     width: 90%;
 }
 
@@ -286,6 +287,190 @@ body{
     background-color: #E7332B;
     color: #ffff;
 }
+
+.whyus2{
+    background-color: rgb(231, 51, 43);
+    color: #ffff;
+}
+
+.whyus2-container{
+    display: flex;
+    margin: auto;
+    padding-top: 49px;
+    width: 85%;
+}
+
+.img-sec1wire{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 128px;
+}
+
+.whyus2-content{
+    width: 80%;
+}
+
+.whyus2-content h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.whyus2-content p{
+    font-size: 18px;
+    width: 68%;
+}
+
+.whyus-btn{
+    background: #ffff;
+    border-radius: 71px;
+    border: 1px solid #ffff;
+    color: #e7332b;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    padding: 8px 28px;
+}
+
+.box-items{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: -24px;
+    width: 120%;
+    margin-left: -24px;
+}
+
+.btn-items{
+    display: flex;
+    width: 245px;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 79px;
+    color: #fff;
+    margin: 10px 24px;
+    font-size: 16px;
+    justify-content: left;
+    padding: 11px 35px 11px 10px;
+}
+
+.btn-items img{
+    width: 25%;
+    padding-right: 10px;
+}
+
+.img-sec5{
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.img-dot{
+    padding: 35px;
+}
+
+.scope{
+    margin: auto;
+    padding-top: 69px;
+    width: 90%;
+}
+
+.scope-content1 p{
+    color: #e7332b;
+    font-size: 24px;
+}
+
+.scope-content1 h2{
+    width: 50%;
+    color: #1b1a20;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.img-sec6{
+    display: flex;
+    justify-content: center;
+}
+
+.scope-content2{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% + 24px);
+    justify-content: center;
+}
+
+.areas{
+    width: 30%;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+    height: 310px;
+    padding: 40px;
+    margin: 15px 0;
+    margin-right: 25px;
+}
+
+.areas h3{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: #1b1a20;
+}
+
+.areas-logo{
+    display: flex;
+}
+
+.areas-logo img{
+    padding-right: 12px;
+}
+
+.areas p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.scope-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 85px;
+    margin-top: 70px;
+}
+
+.scope-btn a button{
+    width: 160px;
+    padding: 12px;
+    background: #E7332B;
+    border: 1px solid #E7332B;
+    border-radius: 87px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px){
